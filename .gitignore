@@ -6,6 +6,7 @@ target
 .idea/*
 src/*/.idea
 !.idea/runConfigurations
+!src/main/resources/*
 
 # Other
 *.log
