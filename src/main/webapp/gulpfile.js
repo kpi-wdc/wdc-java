@@ -281,7 +281,7 @@ gulp.task('build-favicon', function () {
 });
 
 gulp.task('test', (isFlagPositive(argv.skipTests) ? []:
-    ['unit-test', 'e2e-test']), function (cb) {
+    ['unit-test']), function (cb) {
     // disable tests when --skipTests=true is passed
     if (isFlagPositive(argv.skipTests)) {
         console.log('Skipping tests because skipTests flag is passed');
