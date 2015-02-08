@@ -2,6 +2,7 @@ package org.wdc.service;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:spring/persistence-config.xml")
 @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+@Ignore
 public class AssociationServiceTest {
     @Autowired
     AssociationService associationService;

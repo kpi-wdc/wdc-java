@@ -6,6 +6,7 @@
       <task>build</task>
       <task>watch</task>
     </tasks>
+    <arguments />
     <pass-parent-envs>true</pass-parent-envs>
     <envs />
     <RunnerSettings RunnerId="Js.BuildTools.Gulp" />

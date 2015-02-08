@@ -3,6 +3,7 @@
     <node-options />
     <gulpfile>$PROJECT_DIR$/src/main/webapp/gulpfile.js</gulpfile>
     <tasks />
+    <arguments />
     <pass-parent-envs>true</pass-parent-envs>
     <envs />
     <RunnerSettings RunnerId="Js.BuildTools.Gulp" />

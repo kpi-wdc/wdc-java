@@ -7,9 +7,10 @@ before_script:
 # start virtual X frame-buffer for end-to-end testing with real browser
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
-- psql -c 'create database wdc2;' -U postgres
-- psql -d wdc2 -f schema_wdc2.sql -U postgres
-- psql -d wdc2 -f data_wdc2.sql -U postgres
+# may be omitted
+#- psql -c 'create database wdc2;' -U postgres
+#- psql -d wdc2 -f schema_wdc2.sql -U postgres
+#- psql -d wdc2 -f data_wdc2.sql -U postgres
 script:
 - ./run-tomcat-and-tests
 env:
