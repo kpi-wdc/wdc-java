@@ -35,16 +35,6 @@ describe("Webapp", function () {
         expect($('.page-title').getText()).toBeDefined();
     });
 
-    it('should route to 404 page correctly', function () {
-        var errPageButtons = $$('[href="/404"]');
-        errPageButtons.count().then(function (cnt) {
-            if (cnt !== 0) {
-                errPageButtons.first().click();
-                expect(browser.getLocationAbsUrl()).toBe('/404');
-            }
-        });
-    });
-
     describe("delete button", function () {
         it('should have non-clickable delete button on home page', function () {
             expect($('#deletePageBtn').isEnabled()).toBeFalsy();
