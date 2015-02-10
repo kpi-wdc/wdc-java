@@ -1,10 +1,10 @@
 # World Data Center
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kpi-wdc/wdc-java?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kpi-wdc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Project name](http://img.shields.io/badge/wdc-java-widgets-blue.svg)](https://github.com/kpi-wdc/wdc-java)
 [![Build Status](https://travis-ci.org/kpi-wdc/wdc-java.svg?branch=master)](https://travis-ci.org/kpi-wdc/wdc-java)
-[![Coverage Status](https://img.shields.io/coveralls/kpi-wdc/wdc-java.svg)](https://coveralls.io/r/kpi-wdc/wdc-java)
+[![Coverage Status](https://coveralls.io/repos/kpi-wdc/wdc-java/badge.svg)](https://coveralls.io/r/kpi-wdc/wdc-java)
 [![Issue Stats](http://issuestats.com/github/kpi-wdc/wdc-java/badge/issue)](http://issuestats.com/github/kpi-wdc/wdc-java)
 [![Issue Stats](http://issuestats.com/github/kpi-wdc/wdc-java/badge/pr)](http://issuestats.com/github/kpi-wdc/wdc-java)
 [![Stories in Ready](https://badge.waffle.io/kpi-wdc/wdc-java.png?label=ready&title=Ready)](https://waffle.io/kpi-wdc/wdc-java)
